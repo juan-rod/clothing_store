@@ -1,0 +1,36 @@
+/*@import "partials/admin";
+@import "partials/nav";
+@import "partials/about";
+@import "partials/timeline";
+@import "partials/blog";
+@import "partials/user";
+@import "partials/projects";
+@import "partials/footer";*/
+body {
+  background-color: white;
+  font-family: "Lato", sans-serif, sans-serif;
+  color: black;
+  height: 100%;
+  overflow: hidden; }
+
+::-webkit-scrollbar {
+  display: none; }
+
+/*//////////////////////////////////////*/
+/*///// borders /////// */
+.border {
+  border: 2px dotted black; }
+
+.border2 {
+  border: 2px solid red; }
+
+.border3 {
+  border: 2px solid yellow; }
+
+.border4 {
+  border: 2px solid white; }
+
+.border5 {
+  border: 2px solid red; }
+
+/*# sourceMappingURL=main.css.map */
