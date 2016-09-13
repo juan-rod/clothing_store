@@ -1,0 +1,35 @@
+.mainHeader{
+	/*background-color:blue;*/
+	height: 40vh;
+    min-height: 400px;
+    max-height: 600px;
+    padding: 0 0;
+    overflow: hidden;
+    img{
+    	height:auto;
+    	width: 100%;
+    }
+    .inner_topic{
+    	position: absolute;
+    	top: 150;
+    	bottom: 0;
+    	left: 50;
+    	right: 0;
+
+    	h1{
+    		line-height: 1.25;
+    		letter-spacing: 2.5;
+    	}
+    	h4{
+    		letter-spacing: 6;
+    		margin-top: 20px;
+    	}
+    }
+    .inner_topic_button{
+    	position: absolute;
+	    top: 325;
+	    bottom: 0;
+	    left: 50;
+	    right: 0;
+    }
+}

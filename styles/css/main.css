@@ -1,17 +1,86 @@
-/*@import "partials/admin";
-@import "partials/nav";
-@import "partials/about";
-@import "partials/timeline";
-@import "partials/blog";
-@import "partials/user";
-@import "partials/projects";
-@import "partials/footer";*/
+.preMenu {
+  background-color: #eee;
+  height: 35px;
+  /*position: fixed;*/ }
+  .preMenu p {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 3px; }
+
+.navMenu {
+  background-color: red;
+  height: 100px;
+  position: fixed;
+  top: 35px;
+  height: 100px;
+  padding: 20px 3%;
+  background-color: transparent;
+  z-index: 10; }
+  .navMenu .navMenu_logo {
+    width: 250px;
+    display: inline-block;
+    float: left;
+    height: 58px; }
+  .navMenu nav ul {
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0; }
+    .navMenu nav ul li {
+      display: inline;
+      font-size: 14px; }
+      .navMenu nav ul li a {
+        /*display: block;*/
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none; }
+  .navMenu .pull-left {
+    float: left; }
+    .navMenu .pull-left .navMenu_categories li {
+      display: inline-block;
+      vertical-align: middle; }
+  .navMenu .pull-right {
+    float: right; }
+    .navMenu .pull-right .navMenu_options {
+      text-align: right; }
+
+.mainHeader {
+  /*background-color:blue;*/
+  height: 40vh;
+  min-height: 400px;
+  max-height: 600px;
+  padding: 0 0;
+  overflow: hidden; }
+  .mainHeader img {
+    height: auto;
+    width: 100%; }
+  .mainHeader .inner_topic {
+    position: absolute;
+    top: 150;
+    bottom: 0;
+    left: 50;
+    right: 0; }
+    .mainHeader .inner_topic h1 {
+      line-height: 1.25;
+      letter-spacing: 2.5; }
+    .mainHeader .inner_topic h4 {
+      letter-spacing: 6;
+      margin-top: 20px; }
+  .mainHeader .inner_topic_button {
+    position: absolute;
+    top: 325;
+    bottom: 0;
+    left: 50;
+    right: 0; }
+
 body {
   background-color: white;
   font-family: "Lato", sans-serif, sans-serif;
   color: black;
-  height: 100%;
-  overflow: hidden; }
+  height: auto;
+  /*overflow: hidden;*/ }
 
 ::-webkit-scrollbar {
   display: none; }

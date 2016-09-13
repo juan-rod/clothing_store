@@ -1,18 +1,14 @@
 @import "partials/base";
-/*@import "partials/admin";
-@import "partials/nav";
-@import "partials/about";
-@import "partials/timeline";
-@import "partials/blog";
-@import "partials/user";
-@import "partials/projects";
-@import "partials/footer";*/
+@import "partials/preMenu";
+@import "partials/navMenu";
+@import "partials/mainHeader";
+
 body{
 	background-color: $bg-color;
   	font-family: $font-stack, sans-serif;
   	color: $text-color;
-  	height: 100%; 
-  	overflow: hidden;
+  	height: auto; 
+  	/*overflow: hidden;*/
 }
 
 ::-webkit-scrollbar { 
