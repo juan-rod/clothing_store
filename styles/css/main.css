@@ -74,6 +74,13 @@
     bottom: 0;
     left: 50;
     right: 0; }
+    .mainHeader .inner_topic_button button {
+      height: 35px;
+      border-radius: 5px;
+      width: 150px; }
+
+.mainBody {
+  height: 800px; }
 
 body {
   background-color: white;
